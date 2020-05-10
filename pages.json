@@ -1,0 +1,49 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}
+	    ,{
+            "path" : "pages/write/write",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "珈克悦读",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar" : {
+	        "color" : "#8a8a8a",
+	        "selectedColor" : "#e9634c",
+	        "list" : [
+	            {
+	                "pagePath" : "pages/index/index",
+	                "text" : "首页",
+	                "iconPath" : "static/home.png",
+	                "selectedIconPath" : "static/home-active.png"
+	            },
+	            {
+	                "pagePath" : "pages/write/write",
+	                "text" : "写作",
+	                "iconPath" : "static/edit.png",
+	                "selectedIconPath" : "static/edit-active.png"
+	            },
+	            {
+	                "pagePath" : "pages/mine/mine",
+	                "text" : "我的",
+	                "iconPath" : "static/mine.png",
+	                "selectedIconPath" : "static/mine-active.png"
+	            }
+	        ]
+	    }
+}
